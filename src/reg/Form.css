@@ -1,0 +1,46 @@
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3c4bc;
+}
+label {
+  font-size: 0.9em;
+  margin-bottom: 0.25em;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstname,
+.lastname,
+.email,
+.password,
+.confirmpass {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
